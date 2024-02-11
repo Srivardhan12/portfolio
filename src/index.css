@@ -105,3 +105,26 @@ h6 {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* root vars */
+:root{
+  --color-100: #8C8C73;
+  --color-200: #AEAE9D;
+  --color-300: #0E0E0C;
+  --color-400: #E8E8E3;
+}
+
+/* styling starts from here */
+
+.logo{
+  color: var(--color-200);
+}
+
+.hamburger{
+  width: 30px;
+  height: 2px;
+  background-color: var(--color-200);
+  margin-bottom: 5px;
+}
+
