@@ -117,14 +117,54 @@ h6 {
 
 /* styling starts from here */
 
-.logo{
+.c-100{
+  color: var(--color-100);
+}
+
+.c-200{
   color: var(--color-200);
+}
+
+.c-300{
+  color: var(--color-300);
+}
+
+.c-400{
+  color: var(--color-400);
+}
+
+.b-100{
+  background-color: var(--color-300);
+}
+
+.b-200{
+  background-color: var(--color-400);
+}
+
+.line-h-ex{
+  line-height: 12vh;
+}
+
+.line-h-ex2{
+  line-height: 10vh;
+}
+
+.nav{
+  width: 100%;
 }
 
 .hamburger{
   width: 30px;
-  height: 2px;
+  height: 3px;
   background-color: var(--color-200);
   margin-bottom: 5px;
+}
+
+.landing{
+  width: 100%;
+}
+
+.box{
+  width: 60em;
 }
 
