@@ -13,6 +13,7 @@ function App() {
     (
       async () => {
         const LocomotiveScroll = (await import('locomotive-scroll')).default
+        // eslint-disable-next-line
         const locomotiveScroll = new LocomotiveScroll();
       }
 
@@ -23,7 +24,7 @@ function App() {
     <div className="container">
       {/* <Navbar /> */}
       <div className='nav-main sticky top-0'>
-        < nav className='nav absolute px-5 py-5 flex items-center justify-between' >
+        < nav className='nav absolute px-10 py-5 flex items-center justify-between' >
           <div className="logo-sec">
             <span className='c-200 logo text-4xl font-semibold'>S</span>
           </div>
