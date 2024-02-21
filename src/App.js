@@ -21,7 +21,7 @@ function App() {
 
   }, [])
   return (
-    <div className="container">
+    <div className="w-full">
       {/* <Navbar /> */}
       <div className='nav-main sticky top-0'>
         < nav className='nav absolute px-10 py-5 flex items-center justify-between' >
