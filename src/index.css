@@ -188,3 +188,13 @@ h6 {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-100);
 }
+
+::-moz-selection { /* Code for Firefox */
+  color: var(--color-300);
+  background: var(--color-400);
+}
+
+::selection {
+  color: var(--color-300);
+  background: var(--color-400);
+}
