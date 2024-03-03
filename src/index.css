@@ -108,7 +108,7 @@ h6 {
 
 
 /* root vars */
-:root{
+:root {
   --color-100: #8C8C73;
   --color-200: #AEAE9D;
   --color-300: #0E0E0C;
@@ -117,64 +117,84 @@ h6 {
 
 /* styling starts from here */
 
-.c-100{
+.c-100 {
   color: var(--color-100);
 }
 
-.c-200{
+.c-200 {
   color: var(--color-200);
 }
 
-.c-300{
+.c-300 {
   color: var(--color-300);
 }
 
-.c-400{
+.c-400 {
   color: var(--color-400);
 }
 
-.b-100{
+.b-100 {
   background-color: var(--color-300);
 }
 
-.b-200{
+.b-200 {
   background-color: var(--color-400);
 }
 
-.line-h-ex{
+.line-h-ex {
   line-height: 12vh;
 }
 
-.line-h-ex2{
+.line-h-ex2 {
   line-height: 10vh;
 }
 
-.nav{
+.nav {
   width: 100%;
 }
 
-.hamburger{
+.hamburger {
   width: 30px;
   height: 3px;
   background-color: var(--color-200);
   margin-bottom: 5px;
 }
 
-.landing{
+.landing {
   width: 100%;
 }
 
-.box{
+.box {
   width: 60em;
 }
 
-.bounce-ball{
+.bounce-ball {
   font-size: 25px;
   border-radius: 50%;
 }
 
+.xyz {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.project-img {
+  width: 400px;
+  aspect-ratio: 9/16;
+  background-image: url(./assests/images/codefe-4.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.project-main-img {
+  width: 600px;
+}
+
 ::-webkit-scrollbar {
   width: 5px;
+  height: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -189,7 +209,8 @@ h6 {
   background: var(--color-100);
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: var(--color-300);
   background: var(--color-400);
 }
