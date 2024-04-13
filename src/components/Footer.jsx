@@ -15,7 +15,7 @@ export default function Footer() {
                             <h2 className="font-bold c-200 tracking-widest text-sm mb-3 uppercase">Social</h2>
                             <nav className="list-none mb-10">
                                 <li>
-                                    <Link className="c-400" to="https://www.linkedin.com/in/srivardhan-vuthdfdkuru-95117a248/fgdkgfjgfj" target='_blank'>Linkedin</Link>
+                                    <Link className="c-400" to="https://www.linkedin.com/in/srivardhan-vuthdfdkuru-95117a248/" target='_blank'>Linkedin</Link>
                                 </li>
                                 <li>
                                     <Link className="c-400" to="https://twitter.com/srivardhan_24_" target='_blank'>Twitter</Link>
@@ -30,12 +30,6 @@ export default function Footer() {
                             <nav className="list-none mb-10">
                                 <li>
                                     <Link className="c-400" to="https://www.linkedin.com/in/srivardhan-vuthdfdkuru-95117a248/fgdkgfjgfj" target='_blank'>CodePen</Link>
-                                </li>
-                                <li>
-                                    <Link className="c-400" to="https://twitter.com/srivardhan_24_" target='_blank'>Twitter</Link>
-                                </li>
-                                <li>
-                                    <Link className="c-400" to="https://www.instagram.com/srivardhan_24_?igsh=dDI0Y3B3Z3hrODRu" target='_blank'>Instagram</Link>
                                 </li>
                             </nav>
                         </div>
