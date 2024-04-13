@@ -7,13 +7,13 @@ export default function Navbar() {
                 <div className="logo-sec">
                     <span className='c-200 logo text-4xl font-semibold'>S</span>
                 </div>
-                <div className="menu-sec">
+                {/* <div className="menu-sec">
                     <ul>
                         <li className='text-md c-100 font-semibold'>Home</li>
                         <li className='text-md c-100 font-semibold'>About</li>
                         <li className='text-md c-100 font-semibold'>Contact</li>
                     </ul>
-                </div>
+                </div> */}
             </nav >
         </div>
     )
