@@ -17,7 +17,7 @@ export default function Footer() {
         if (name === '' || email === '' || message === '') {
             return setStatus("Plese fill all feilds")
         }
-        setButtonStatus("Loding...")
+        setButtonStatus("Sending...")
         emailjs
             .sendForm('service_nktxvle', 'template_v1natu4', form.current, {
                 publicKey: "9zbxJLjs8R3ZEsiu7",
