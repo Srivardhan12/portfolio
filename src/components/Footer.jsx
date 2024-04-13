@@ -20,7 +20,7 @@ export default function Footer() {
         setButtonStatus("Loding...")
         emailjs
             .sendForm('service_nktxvle', 'template_v1natu4', form.current, {
-                publicKey: '9zbxJLjs8R3ZEsiu7',
+                publicKey: "9zbxJLjs8R3ZEsiu7",
             })
             .then(
                 () => {
@@ -73,9 +73,9 @@ export default function Footer() {
                             <h2 className='font-bold c-200 tracking-widest text-sm mb-3 uppercase'>Contact</h2>
                             {/* <span className='c-400'>vuthurusrivardhan@gmail.com</span> */}
                             <form ref={form} onSubmit={sendEmail}>
-                                <textarea name="message" placeholder='message' className='textarea' onChange={((e) => { setMessage(e.target.value); setStatus("") })} /><br />
-                                <input type="text" name="user_name" placeholder='name' className='email-username' onChange={((e) => { setEmail(e.target.value); setStatus("") })} />
-                                <input type="email" name="user_email" placeholder='mail@gmail.com' className='email-useremail' onChange={((e) => { setName(e.target.value); setStatus("") })} /><br />
+                                <textarea name="message" placeholder='message' className='textarea' onChange={((e) => { setMessage(e.target.value); setStatus(""); setButtonStatus("send") })} /><br />
+                                <input type="text" name="user_name" placeholder='name' className='email-username' onChange={((e) => { setEmail(e.target.value); setStatus(""); setButtonStatus("sent") })} />
+                                <input type="email" name="user_email" placeholder='mail@gmail.com' className='email-useremail' onChange={((e) => { setName(e.target.value); setStatus(""); setButtonStatus("send") })} /><br />
                                 <button type="submit" value="Send" className='btn c-200 uppercase font-semibold'>{buttonStatus}</button>
                                 <p className='font-semibold'>{status}</p>
                             </form>
