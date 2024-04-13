@@ -39,6 +39,10 @@ export default function Footer() {
                                 </li>
                             </nav>
                         </div>
+                        <div>
+                            <h2 className='font-bold c-200 tracking-widest text-sm mb-3 uppercase'>Contact</h2>
+                            <span className='c-400'>vuthurusrivardhan@gmail.com</span>
+                        </div>
                     </div>
                 </div>
                 <div className="c-200 bg-opacity-75">
