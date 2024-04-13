@@ -4,8 +4,7 @@ import emailjs from '@emailjs/browser';
 
 export default function Footer() {
     const form = useRef();
-    const [buttonStatus, setButtonStatus] = useState("Send")
-    const [status, setStatus] = useState(" ")
+    const [status, setStatus] = useState("Send")
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
@@ -17,21 +16,20 @@ export default function Footer() {
         if (name === '' || email === '' || message === '') {
             return setStatus("Plese fill all feilds")
         }
-        setButtonStatus("Sending...")
+        setStatus("Sending...")
         emailjs
             .sendForm('service_nktxvle', 'template_v1natu4', form.current, {
-                publicKey: "9zbxJLjs8R3ZEsiu7",
+                publicKey: "9zbxJLjs8R3ZEsiu71",
             })
             .then(
                 () => {
-                    setButtonStatus('Sent');
+                    setStatus('Sent');
                     setEmail("")
                     setName("")
                     setMessage("")
                 },
                 (error) => {
                     setStatus('Somthing went wrong plese try again');
-                    setButtonStatus("Try again")
                 },
             );
     };
@@ -73,11 +71,10 @@ export default function Footer() {
                             <h2 className='font-bold c-200 tracking-widest text-sm mb-3 uppercase'>Contact</h2>
                             {/* <span className='c-400'>vuthurusrivardhan@gmail.com</span> */}
                             <form ref={form} onSubmit={sendEmail}>
-                                <textarea name="message" placeholder='message' className='textarea' onChange={((e) => { setMessage(e.target.value); setStatus(""); setButtonStatus("send") })} /><br />
-                                <input type="text" name="user_name" placeholder='name' className='email-username' onChange={((e) => { setEmail(e.target.value); setStatus(""); setButtonStatus("sent") })} />
-                                <input type="email" name="user_email" placeholder='mail@gmail.com' className='email-useremail' onChange={((e) => { setName(e.target.value); setStatus(""); setButtonStatus("send") })} /><br />
-                                <button type="submit" value="Send" className='btn c-200 uppercase font-semibold'>{buttonStatus}</button>
-                                <p className='font-semibold'>{status}</p>
+                                <textarea name="message" placeholder='message' className='textarea' onChange={((e) => { setMessage(e.target.value); setStatus("send") })} /><br />
+                                <input type="text" name="user_name" placeholder='name' className='email-username' onChange={((e) => { setEmail(e.target.value); setStatus("send") })} />
+                                <input type="email" name="user_email" placeholder='mail@gmail.com' className='email-useremail' onChange={((e) => { setName(e.target.value); setStatus("send") })} /><br />
+                                <button type="submit" value="Send" className='btn c-200 uppercase font-semibold'>{status}</button>
                             </form>
                         </div>
                     </div>
