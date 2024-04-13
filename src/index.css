@@ -113,6 +113,7 @@ h6 {
   --color-200: #AEAE9D;
   --color-300: #0E0E0C;
   --color-400: #E8E8E3;
+  --color-500: rgb(232, 232, 227, 0.2);
 }
 
 /* styling starts from here */
@@ -133,6 +134,10 @@ h6 {
   color: var(--color-400);
 }
 
+.c-500 {
+  color: var(--color-500);
+}
+
 .b-100 {
   background-color: var(--color-300);
 }
@@ -151,13 +156,6 @@ h6 {
 
 .nav {
   width: 100%;
-}
-
-.hamburger {
-  width: 30px;
-  height: 3px;
-  background-color: var(--color-200);
-  margin-bottom: 5px;
 }
 
 .landing {

@@ -47,7 +47,7 @@ export default function Footer() {
                 </div>
                 <div className="c-200 bg-opacity-75">
                     <div className="container mx-auto py-4 px-5">
-                        <p className="c-200 text-sm font-medium sm:text-left uppercase" style={{ textAlign: "center" }}>Designed and Developed by srivardhan</p>
+                        <p className="c-200 text-xs font-medium sm:text-left uppercase" style={{ textAlign: "center" }}>Designed and Developed by srivardhan</p>
                     </div>
                 </div>
             </footer >
