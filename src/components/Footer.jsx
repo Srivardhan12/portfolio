@@ -31,6 +31,9 @@ export default function Footer() {
                                 <li>
                                     <Link className="c-400" to="https://www.linkedin.com/in/srivardhan-vuthdfdkuru-95117a248/fgdkgfjgfj" target='_blank'>CodePen</Link>
                                 </li>
+                                <li>
+                                    <Link className="c-400" to="https://github.com/Srivardhan12" target='_blank'>Github</Link>
+                                </li>
                             </nav>
                         </div>
                         <div>
