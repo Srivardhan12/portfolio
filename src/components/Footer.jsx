@@ -9,6 +9,7 @@ export default function Footer() {
     // const [email, setEmail] = useState("")
     // const [message, setMessage] = useState("")
 
+<<<<<<< HEAD
     // // eslint-disable-next-line
     // const sendEmail = (e) => {
     //     e.preventDefault();
@@ -33,6 +34,32 @@ export default function Footer() {
     //             },
     //         );
     // };
+=======
+    // eslint-disable-next-line
+    const sendEmail = (e) => {
+        e.preventDefault();
+        setStatus(" ")
+        if (name === '' || email === '' || message === '') {
+            return setStatus("Plese fill all feilds")
+        }
+        setStatus("Sending...")
+        emailjs
+            .sendForm('service_nktxvle', 'template_v1natu4', form.current, {
+                publicKey: "9zbxJLjs8R3ZEsiu7",
+            })
+            .then(
+                () => {
+                    setStatus('Sent');
+                    setEmail("")
+                    setName("")
+                    setMessage("")
+                },
+                (error) => {
+                    setStatus('Somthing went wrong plese try again');
+                },
+            );
+    };
+>>>>>>> b4779d19de1011481e8a5e2b88005873f4370037
     return (
         <div>
             <footer className="c-200 body-font">
