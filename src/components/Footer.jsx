@@ -1,38 +1,38 @@
-import React, { useRef, useState } from 'react';
 import { Link } from 'react-router-dom'
-import emailjs from '@emailjs/browser';
+// import React, { useRef, useState } from 'react';
+// import emailjs from '@emailjs/browser';
 
 export default function Footer() {
-    const form = useRef();
-    const [status, setStatus] = useState("Send")
-    const [name, setName] = useState("")
-    const [email, setEmail] = useState("")
-    const [message, setMessage] = useState("")
+    // const form = useRef();
+    // const [status, setStatus] = useState("Send")
+    // const [name, setName] = useState("")
+    // const [email, setEmail] = useState("")
+    // const [message, setMessage] = useState("")
 
-    // eslint-disable-next-line
-    const sendEmail = (e) => {
-        e.preventDefault();
-        setStatus(" ")
-        if (name === '' || email === '' || message === '') {
-            return setStatus("Plese fill all feilds")
-        }
-        setStatus("Sending...")
-        emailjs
-            .sendForm('service_nktxvle', 'template_v1natu4', form.current, {
-                publicKey: "9zbxJLjs8R3ZEsiu71",
-            })
-            .then(
-                () => {
-                    setStatus('Sent');
-                    setEmail("")
-                    setName("")
-                    setMessage("")
-                },
-                (error) => {
-                    setStatus('Somthing went wrong plese try again');
-                },
-            );
-    };
+    // // eslint-disable-next-line
+    // const sendEmail = (e) => {
+    //     e.preventDefault();
+    //     setStatus(" ")
+    //     if (name === '' || email === '' || message === '') {
+    //         return setStatus("Plese fill all feilds")
+    //     }
+    //     setStatus("Sending...")
+    //     emailjs
+    //         .sendForm('service_nktxvle', 'template_v1natu4', form.current, {
+    //             publicKey: "9zbxJLjs8R3ZEsiu71",
+    //         })
+    //         .then(
+    //             () => {
+    //                 setStatus('Sent');
+    //                 setEmail("")
+    //                 setName("")
+    //                 setMessage("")
+    //             },
+    //             (error) => {
+    //                 setStatus('Somthing went wrong plese try again');
+    //             },
+    //         );
+    // };
     return (
         <div>
             <footer className="c-200 body-font">
@@ -60,7 +60,7 @@ export default function Footer() {
                             <h2 className="font-bold c-200 tracking-widest text-sm mb-3 uppercase">codes</h2>
                             <nav className="list-none mb-10">
                                 <li>
-                                    <Link className="c-400" to="https://www.linkedin.com/in/srivardhan-vuthdfdkuru-95117a248/fgdkgfjgfj" target='_blank'>CodePen</Link>
+                                    <Link className="c-400" to="https://codepen.io/Vuthuru-Srivardhan" target='_blank'>CodePen</Link>
                                 </li>
                                 <li>
                                     <Link className="c-400" to="https://github.com/Srivardhan12" target='_blank'>Github</Link>
@@ -69,13 +69,13 @@ export default function Footer() {
                         </div>
                         <div>
                             <h2 className='font-bold c-200 tracking-widest text-sm mb-3 uppercase'>Contact</h2>
-                            {/* <span className='c-400'>vuthurusrivardhan@gmail.com</span> */}
-                            <form ref={form} onSubmit={sendEmail}>
-                                <textarea name="message" placeholder='message' className='textarea' onChange={((e) => { setMessage(e.target.value); setStatus("send") })} /><br />
-                                <input type="text" name="user_name" placeholder='name' className='email-username' onChange={((e) => { setEmail(e.target.value); setStatus("send") })} />
-                                <input type="email" name="user_email" placeholder='mail@gmail.com' className='email-useremail' onChange={((e) => { setName(e.target.value); setStatus("send") })} /><br />
-                                <button type="submit" value="Send" className='btn c-200 uppercase font-semibold'>{status}</button>
-                            </form>
+                            <span className='c-400'>vuthurusrivardhan@gmail.com</span>
+                            {/* <form ref={form} onSubmit={sendEmail}>
+                            <textarea name="message" placeholder='message' className='textarea' onChange={((e) => { setMessage(e.target.value); setStatus("send") })} /><br />
+                            <input type="text" name="user_name" placeholder='name' className='email-username' onChange={((e) => { setEmail(e.target.value); setStatus("send") })} />
+                            <input type="email" name="user_email" placeholder='mail@gmail.com' className='email-useremail' onChange={((e) => { setName(e.target.value); setStatus("send") })} /><br />
+                            <button type="submit" value="Send" className='btn c-200 uppercase font-semibold'>{status}</button>
+                        </form> */}
                         </div>
                     </div>
                 </div>
