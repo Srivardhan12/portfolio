@@ -2,7 +2,7 @@ import './App.css';
 import { useEffect } from 'react'
 import Navbar from './components/Navbar';
 import Main from './components/Main'
-import WhatDoIDo from './components/WhatDoIDo'
+import WhatDoIDo from './components/WhatIDo'
 import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
