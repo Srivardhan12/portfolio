@@ -10,8 +10,10 @@ export default function Main() {
                     <p className='c-300 pt-3 uppercase  font-medium text-end'>STUDENT AND A WEB DEVELOPER</p>
                 </div> */}
             </div>
-            <div className=''>
+            <div >
+                {/* <div className='absolute mt-96 rotate-90'> */}
                 <p className='absolute mt-40 bounce-ball animate-bounce w-10 h-10 b-100 mx-auto c-200 text-center'>&darr;</p>
+                {/* <p className='bounce-ball animate-bounce mt-40 text-base w-auto rotate-90' style={{ "fontSize": "16px" }}>Scroll down</p> */}
             </div>
         </div>
     )

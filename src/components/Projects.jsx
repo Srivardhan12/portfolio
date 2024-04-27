@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function Projects() {
     return (
         <div className='w-11/12 m-auto px-10 h-screen'>
-            <h2 className='c-100 px-8 pt-20 uppercase text-base font-medium tracking-widest'>Projects</h2>
+            <h2 className='c-100 px-8 pt-20 uppercase text-base font-semibold tracking-widest'>Projects</h2>
             <div className="px-8 pt-10 flex">
                 <Link to="https://codefe.vercel.app" target='_blank'>
                     <img src={codefeImg} className='w-11/12 rounded-md hover:scale-105 transition' alt="ProjectImg" />
