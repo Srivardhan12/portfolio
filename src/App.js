@@ -6,6 +6,7 @@ import WhatDoIDo from './components/WhatIDo'
 import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import Skills from './components/Skills'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <WhatDoIDo />
         <AboutMe />
         <Projects />
+        <Skills />
         <Footer />
       </div>
     </div>

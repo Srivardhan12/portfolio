@@ -11,7 +11,7 @@ export default function WhatDoIDo() {
         <div className='px-10 b-100 flex justify-center align-middle flex-col w-11/12 m-auto h-screen'>
             <h2 className='c-100 px-10 uppercase pb-5 text-base font-semibold tracking-widest'>What i do?</h2>
             {textParas.map((el) => {
-                return <ClipText key={el} text={el} />
+                return <ClipText key={el} text={el} end={75} />
             })}
         </div>
     )

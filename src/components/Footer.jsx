@@ -36,12 +36,12 @@ export default function Footer() {
     return (
         <div>
             <footer className="c-200 body-font">
-                <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+                <div className="container px-5 py-24 mx-auto flex  md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                     <div className="w-96 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                         <p className="text-6xl font-medium c-200">Srivardhan</p>
                         <p className="mt-2 text-sm c-100 font-medium pl-1">Always curious to learn new things...</p>
                     </div>
-                    <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                    <div className="flex-grow flex justify-center flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="font-bold c-200 tracking-widest text-sm mb-3 uppercase">Social</h2>
                             <nav className="list-none mb-10">
