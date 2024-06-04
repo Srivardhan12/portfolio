@@ -9,7 +9,7 @@ export default function Projects() {
             porjectDiscreption: "CodeFE offers an immersive experience filled with exciting challenges and a playground to pratice your front-end skills.",
             projectImage: codefeImg,
             LiveDemoURL: "https://codefe.vercel.app",
-            GithubURL: "dskf"
+            GithubURL: ""
         },
     ]
     return (
