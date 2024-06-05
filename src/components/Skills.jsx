@@ -2,8 +2,7 @@ import React from 'react'
 import ClipText from "./ClipText"
 
 export default function Skills() {
-    const skills = ["Typescript", "Javascript", "C++", "React", "Next.js", "Tailwind", "Postgress", "MySql", "MongoDB", "Prisma"]
-    // const skillTitle = ["Language"]
+    const skills = ["Typescript", "Javascript", "C++", "React", "Next.js", "Express.js", "Hono.js", "Tailwind", "Postgress", "MySql", "MongoDB", "Prisma"]
     const speed = 50;
     return (
         <div className='px-10 mt-12 flex justify-center align-middle flex-col w-11/12 m-auto'>
@@ -11,11 +10,6 @@ export default function Skills() {
             {skills.map((elem) => {
                 return <div className='flex'>
                     <ClipText text={elem} end={speed} />
-                    {/* {skillTitle.map((st) => {
-                        return <div>
-                            <p><ClipText text={st} end={speed} /></p>
-                        </div>
-                    })} */}
                 </div>
             })}
         </div>
