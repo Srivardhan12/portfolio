@@ -46,7 +46,7 @@ export default function Footer() {
                             <h2 className="font-bold c-200 tracking-widest text-sm mb-3 uppercase">Social</h2>
                             <nav className="list-none mb-10">
                                 <li>
-                                    <Link className="c-400" to="https://www.linkedin.com/in/srivardhan-vuthdfdkuru-95117a248/" target='_blank'>Linkedin</Link>
+                                    <Link className="c-400" to="www.linkedin.com/in/srivardhan-vuthuru" target='_blank'>Linkedin</Link>
                                 </li>
                                 <li>
                                     <Link className="c-400" to="https://twitter.com/srivardhan_24_" target='_blank'>Twitter</Link>
