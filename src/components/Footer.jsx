@@ -23,7 +23,7 @@ export default function Footer() {
                     to="https://linkedin.com/in/srivardhan-vuthuru"
                     target="_blank"
                   >
-                    Linkedin
+                    LinkedIn
                   </Link>
                 </li>
                 <li>
