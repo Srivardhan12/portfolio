@@ -10,7 +10,7 @@ export default function Projects() {
         "CodeFE offers an immersive experience filled with exciting challenges and a playground to pratice your front-end skills.",
       projectImage: codefeImg,
       LiveDemoURL: "https://codefe.vercel.app",
-      GithubURL: "",
+      GithubURL: "https://github.com/Srivardhan12/CodeFE.git",
     },
   ];
   return (
@@ -34,28 +34,24 @@ export default function Projects() {
                 {p.porjectDiscreption}
               </p>
               {p.LiveDemoURL ? (
-                <button>
-                  <Link
-                    to={p.LiveDemoURL}
-                    className="c-200 font-semibold"
-                    target="_blank"
-                  >
-                    Live Demo
-                  </Link>
-                </button>
+                <Link
+                  to={p.LiveDemoURL}
+                  className="c-200 me-2 mb-2 text-sm font-semibold border-b-2"
+                  target="_blank"
+                >
+                  Live Demo
+                </Link>
               ) : (
                 ""
               )}
               {p.GithubURL ? (
-                <button>
-                  <Link
-                    to={p.GithubURL}
-                    className="c-200 font-semibold"
-                    target="_blank"
-                  >
-                    Live Demo
-                  </Link>
-                </button>
+                <Link
+                  to={p.GithubURL}
+                  className="c-200 mx-3 me-2 mb-2 text-sm font-semibold border-b-2"
+                  target="_blank"
+                >
+                  GitHub
+                </Link>
               ) : (
                 ""
               )}
