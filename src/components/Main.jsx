@@ -4,7 +4,7 @@ export default function Main() {
   return (
     <div className="landing b-200 flex justify-center items-center h-screen w-full m-auto flex-col relative">
       <div className="box">
-        <p className="c-100 uppercase lg:text-8xl md:text-7xl text-5xl font-semibold text-center md:lg:text-center md:mr-24">
+        <p className="c-100 uppercase lg:text-8xl md:text-7xl text-4xl font-semibold text-center md:lg:text-center md:mr-24">
           Hello there, I'm
         </p>
         <h1 className="c-100 pt-10 uppercase lg:text-8xl md:text-7xl text-5xl font-semibold text-center md:text-end lg:text-end md:ml-32">
