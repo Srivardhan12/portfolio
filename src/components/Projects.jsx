@@ -20,7 +20,7 @@ export default function Projects() {
       </h2>
       {porjects.map((p) => {
         return (
-          <div className="px-8 pt-10 flex md:flex-col border-b border-slate-200 pb-10">
+          <div className="px-8 pt-10 flex lg:flex-row md:flex-col border-b border-slate-200 pb-10">
             <Link to={p.projectURL} target="_blank">
               <img
                 src={p.projectImage}
