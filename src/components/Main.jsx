@@ -3,7 +3,7 @@ import React from "react";
 export default function Main() {
   return (
     <div className="landing b-200 flex justify-center items-center h-screen w-full m-auto flex-col relative">
-      <div className="box">
+      <div className="pt-32">
         <p className="c-100 uppercase lg:text-8xl md:text-7xl text-4xl font-semibold text-center md:lg:text-center md:mr-24">
           Hello there, I'm
         </p>
@@ -13,7 +13,7 @@ export default function Main() {
       </div>
       <div>
         {/* <div className='absolute mt-96 rotate-90'> */}
-        <p className="absolute mt-40 bounce-ball animate-bounce w-10 h-10 b-100 mx-auto c-200 text-center">
+        <p className="mt-40 bounce-ball animate-bounce w-10 h-10 b-100 lg:md:mx-auto c-200 text-center">
           &darr;
         </p>
         {/* <p className='bounce-ball animate-bounce mt-40 text-base w-auto rotate-90' style={{ "fontSize": "16px" }}>Scroll down</p> */}
