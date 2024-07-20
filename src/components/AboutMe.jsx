@@ -14,7 +14,7 @@ export default function AboutMe() {
   ];
   return (
     <div className="px-10 flex justify-center align-middle flex-col w-11/12 m-auto min-h-screen">
-      <h2 className="c-100 px-10 uppercase text-base pb-5 font-semibold tracking-widest md:pt-28">
+      <h2 className="c-100 px-10 uppercase text-base pb-5 font-semibold tracking-widest md:pt-28 sm:pt-28">
         About me
       </h2>
       {aboutMePara.map((el) => {

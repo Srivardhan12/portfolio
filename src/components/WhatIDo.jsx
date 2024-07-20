@@ -2,6 +2,10 @@ import React from "react";
 import ClipText from "./ClipText";
 
 export default function WhatDoIDo() {
+  // const textParas = [
+  //   "I create purposeful digital experiences. Passionate about coding, crafting sleek designs, and bringing ideas to life interactively.",
+  // ];
+  // const textArray = textParas.split(" ");
   const textParas = [
     "I create purposeful digital experiences. ",
     "Passionate about coding, crafting sleek ",
@@ -16,6 +20,11 @@ export default function WhatDoIDo() {
       <h2 className="c-100 px-10 uppercase pb-5 text-base font-semibold tracking-widest pt-20">
         What i do?
       </h2>
+      {/* <div className="flex max-w-full text-wrap">
+        {textArray.map((el) => {
+          return <ClipText key={el} text={el} end={75} />;
+        })}
+      </div> */}
       {textParas.map((el) => {
         return <ClipText key={el} text={el} end={75} />;
       })}
