@@ -4,15 +4,12 @@ export default function Main() {
   return (
     <div className="landing b-200 flex justify-center items-center h-screen w-full m-auto flex-col relative">
       <div className="box">
-        <p className="c-100 uppercase lg:text-8xl md:text-5xl sm:text-6xl font-semibold text-start md:text-center md:mr-24">
+        <p className="c-100 uppercase lg:text-8xl md:text-7xl text-5xl font-semibold text-center md:lg:text-center md:mr-24">
           Hello there, I'm
         </p>
-        <h1 className="c-100 pt-10 uppercase lg:text-8xl md:text-5xl sm:text-6xl font-semibold text-end md:text-center md:ml-32">
+        <h1 className="c-100 pt-10 uppercase lg:text-8xl md:text-7xl text-5xl font-semibold text-center md:text-end lg:text-end md:ml-32">
           Srivardhan
         </h1>
-        {/* <div>
-                    <p className='c-300 pt-3 uppercase  font-medium text-end'>STUDENT AND A WEB DEVELOPER</p>
-                </div> */}
       </div>
       <div>
         {/* <div className='absolute mt-96 rotate-90'> */}

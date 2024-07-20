@@ -23,7 +23,7 @@ function App() {
   }, [])
   return (
     <div className="w-full">
-      <Navbar />
+      {/* <Navbar /> */}
       <Main />
       <div className='b-100'>
         <WhatDoIDo />

@@ -14,14 +14,14 @@ export default function Projects() {
     },
   ];
   return (
-    <div className="w-11/12 m-auto px-10 min-h-screen">
-      <h2 className="c-100 px-8 pt-20 uppercase text-base font-semibold tracking-widest">
+    <div className="w-11/12 m-auto md:lg:px-10 min-h-screen">
+      <h2 className="c-100 md:lg:px-8 pt-20 uppercase text-base font-semibold tracking-widest">
         Projects
       </h2>
       {porjects.map((p) => {
         return (
-          <div className="px-8 pt-10 flex lg:flex-row md:flex-col border-b border-slate-200 pb-10">
-            <Link to={p.projectURL} target="_blank">
+          <div className="md:lg:px-8 pt-10 flex lg:flex-row flex-col border-b border-slate-200 pb-10">
+            <Link to={p.LiveDemoURL} target="_blank">
               <img
                 src={p.projectImage}
                 className="w-11/12 rounded-md hover:scale-105 transition"
@@ -29,7 +29,7 @@ export default function Projects() {
               />
             </Link>
             <div>
-              <h3 className="c-400 text-5xl font-medium md:pt-6">
+              <h3 className="c-400 text-5xl font-medium pt-6 lg:pt-0">
                 {p.projectName}
               </h3>
               <p className="c-200 text-2xl font-medium py-5">
