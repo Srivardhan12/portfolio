@@ -20,7 +20,7 @@ export default function Projects() {
       </h2>
       {porjects.map((p) => {
         return (
-          <div className="px-8 pt-10 flex">
+          <div className="px-8 pt-10 flex md:flex-col border-b border-slate-200 pb-10">
             <Link to={p.projectURL} target="_blank">
               <img
                 src={p.projectImage}
@@ -29,7 +29,9 @@ export default function Projects() {
               />
             </Link>
             <div>
-              <h3 className="c-400 text-5xl font-medium">{p.projectName}</h3>
+              <h3 className="c-400 text-5xl font-medium md:pt-6">
+                {p.projectName}
+              </h3>
               <p className="c-200 text-2xl font-medium py-5">
                 {p.porjectDiscreption}
               </p>
