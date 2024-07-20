@@ -5,7 +5,7 @@ export default function Footer() {
     <div>
       <footer className="c-200 body-font">
         <div className="md:lg:px-5 py-24 mx-auto flex md:items-center w-11/12 lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-          <div className="w-96 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+          <div className="w-fit flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <p className="text-6xl font-medium c-200">Srivardhan</p>
             <p className="mt-2 text-sm c-100 font-medium pl-1">
               Always curious to learn new things...

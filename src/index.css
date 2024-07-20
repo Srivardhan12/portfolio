@@ -175,45 +175,10 @@ h6 {
   background-repeat: no-repeat;
 }
 
-.project-main-img {
-  width: 600px;
-}
-
-.textarea,
-.email-username,
-.email-useremail {
-  background: none;
-  outline: none;
-  border: 1px solid var(--color-200);
-  padding: 5px;
-  color: var(--color-400);
-}
-
-.textarea {
-  width: 500px;
-  height: 100px;
-}
-
-.email-username,
-.email-useremail {
-  width: 240px;
-}
-
-.email-useremail {
-  margin: 16px;
-}
-
-.textarea,
-.email-username,
-.email-useremail,
-.btn {
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 5px;
   height: 5px;
-}
+} */
 
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
