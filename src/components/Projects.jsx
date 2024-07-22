@@ -14,7 +14,7 @@ export default function Projects() {
     },
   ];
   return (
-    <div className="w-11/12 m-auto md:lg:px-10 min-h-screen">
+    <div className="w-11/12 m-auto md:lg:px-10 md:lg:min-h-screen sm:w-fit">
       <h2 className="c-100 md:lg:px-8 pt-20 uppercase text-base font-semibold tracking-widest">
         Projects
       </h2>

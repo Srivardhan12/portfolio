@@ -1,10 +1,10 @@
 import React from "react";
-import ClipText from "./ClipText";
+// import ClipText from "./ClipText";
 
 export default function WhatDoIDo() {
-  const textForSm =
-    "I create purposeful digital experiences. Passionate about coding, crafting sleek designs, and bringing ideas to life interactively.";
-  const splaitedText = textForSm.split(" ");
+  // const textForSm =
+  //   "I create purposeful digital experiences. Passionate about coding, crafting sleek designs, and bringing ideas to life interactively.";
+  // const splaitedText = textForSm.split(" ");
   const textParas = [
     "I create purposeful digital experiences. ",
     "Passionate about coding, crafting sleek ",
