@@ -24,7 +24,7 @@ export default function Skills() {
       </h2>
       {skills.map((elem) => {
         return (
-          <p className="c-400 line-h-ex leading-snug md:lg:px-10 text-6xl font-semibold">
+          <p className="c-400 line-h-ex leading-snug pb-3 md:lg:px-10 text-6xl font-semibold">
             {elem}
           </p>
         );
