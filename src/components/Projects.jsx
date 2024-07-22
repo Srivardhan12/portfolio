@@ -24,7 +24,7 @@ export default function Projects() {
             <Link to={p.LiveDemoURL} target="_blank">
               <img
                 src={p.projectImage}
-                className="w-11/12 rounded-md hover:scale-105 transition"
+                className="rounded-md hover:scale-105 transition md:lg:w-11/12 sm:w-full"
                 alt="ProjectImg"
               />
             </Link>

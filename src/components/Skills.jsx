@@ -24,11 +24,18 @@ export default function Skills() {
       </h2>
       {skills.map((elem) => {
         return (
-          <div className="flex">
+          <p className="c-400 line-h-ex leading-snug md:lg:px-10 text-6xl font-semibold">
+            {elem}
+          </p>
+        );
+      })}
+      {/* {skills.map((elem) => {
+        return (
+          <div className="flex leading-snug">
             <ClipText text={elem} end={speed} />
           </div>
         );
-      })}
+      })} */}
     </div>
   );
 }
