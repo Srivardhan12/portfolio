@@ -178,19 +178,21 @@ h6 {
 ::-webkit-scrollbar {
   width: 5px;
   height: 5px;
+  border-radius: 50%;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: var(--color-300);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-200);
+  background: var(--color-400);
+  border-radius: 50px;
 }
 
-::-webkit-scrollbar-thumb:hover {
+/* ::-webkit-scrollbar-thumb:hover {
   background: var(--color-100);
-}
+} */
 
 ::-moz-selection {
   /* Code for Firefox */
