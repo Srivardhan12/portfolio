@@ -113,7 +113,8 @@ h6 {
   --color-200: #AEAE9D;
   --color-300: #0E0E0C;
   --color-400: #E8E8E3;
-  --color-500: rgb(232, 232, 227, 0.2);
+  --color-500: #E8E8E333;
+  --color-600: rgb(183, 171, 152, 0.5);
 }
 
 /* styling starts from here */
@@ -144,6 +145,10 @@ h6 {
 
 .b-200 {
   background-color: var(--color-400);
+}
+
+.b-300 {
+  background-color: var(--color-600);
 }
 
 .line-h-ex {
