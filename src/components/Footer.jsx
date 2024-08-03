@@ -38,7 +38,7 @@ export default function Footer() {
                 <li>
                   <Link
                     className="c-400"
-                    to="https://www.instagram.com/srivardhan_24_?igsh=dDI0Y3B3Z3hrODRu"
+                    to="https://www.instagram.com/srivardhan24_"
                     target="_blank"
                   >
                     Instagram
