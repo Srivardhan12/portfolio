@@ -7,6 +7,7 @@ import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Skills from './components/Skills'
+import Grainy from './components/Grainy';
 
 function App() {
   useEffect(() => {
@@ -22,8 +23,10 @@ function App() {
   }, [])
   return (
     <div className="w-full">
-      {/* <Navbar /> */}
+    <div className='grainy-background'>
+      <Grainy/>
       <Main />
+      </div>
       <div className='b-100'>
         <WhatDoIDo />
         <AboutMe />
