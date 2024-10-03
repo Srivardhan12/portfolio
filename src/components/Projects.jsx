@@ -30,7 +30,7 @@ export default function Projects() {
       {porjects.map((p) => {
         return (
           <div className="pt-10 flex lg:flex-row flex-col border-b border-slate-200 pb-20">
-            <Link to={p.liveDemoURL} target="_blank" className="bg-gray-300">
+            <Link to={p.liveDemoURL} target="_blank">
               <img
                 src={p.projectImage}
                 className="rounded-md hover:scale-105 transition md:lg:w-8/12 sm:w-full"

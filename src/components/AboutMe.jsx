@@ -19,17 +19,17 @@ export default function AboutMe() {
       <h2 className="c-100 md:lg:px-10 uppercase text-base pb-5 font-semibold tracking-widest md:pt-28 pt-16">
         About me
       </h2>
-      <p className="c-400 md:lg:line-h-ex leading-10 md:lg:px-10 text-3xl lg:text-6xl font-semibold sm:hidden">
+      <p className="c-400 line-h-ex sm:leading-snug leading-10 md:lg:px-10 text-3xl lg:text-6xl font-semibold sm:hidden">
         {aboutMeParaSM}
       </p>
       {/* {textParas.map((el) => {
           return <ClipText key={el} text={el} end={75} />;
         })} */}
-      <div className="c-400 line-h-ex sm:leading-10 md:lg:px-10 px-0 text-3xl lg:text-6xl font-semibold hidden md:lg:block">
+      {/* <div className="c-400 line-h-ex sm:leading-10 md:lg:px-10 px-0 text-3xl lg:text-6xl font-semibold hidden md:lg:block">
         {aboutMePara.map((el) => {
           return <p className="leading-snug">{el}</p>;
         })}
-      </div>
+      </div> */}
     </div>
   );
 }
