@@ -5,7 +5,6 @@ export default function Skills() {
   const skills = [
     "Typescript",
     "Javascript",
-    "C++",
     "React",
     "Express.js",
     "Hono.js",

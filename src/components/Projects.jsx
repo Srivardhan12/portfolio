@@ -1,10 +1,27 @@
 import React from "react";
-import codefeImg from "../assests/images/codefe-5.jpg";
+import codefeImg from "../assests/images/codefe.png";
 import medium from "../assests/images/medium.png";
+import gandg from "../assests/images/gang.png";
 import { Link } from "react-router-dom";
 
 export default function Projects() {
   const porjects = [
+    {
+      projectName: "G&G Infra Projects (FREELANCING)",
+      porjectDiscreption:
+        "Made landing page of G&G Infra Projects Telecom Industry",
+      projectImage: gandg,
+      liveDemoURL: "https://gandginfraprojects.com/",
+      githubURL: "https://github.com/Srivardhan12/G-G-Infra-Projects.git",
+    },
+    {
+      projectName: "Blog Website",
+      porjectDiscreption:
+        "It is a blog website where user can write, read and edit there blogs",
+      projectImage: medium,
+      liveDemoURL: "https://srivardhan-medium-clone.vercel.app",
+      githubURL: "http://github.com/Srivardhan12/medium-clone",
+    },
     {
       projectName: "CodeFE",
       porjectDiscreption:
@@ -12,14 +29,6 @@ export default function Projects() {
       projectImage: codefeImg,
       liveDemoURL: "https://codefe.vercel.app",
       githubURL: "https://github.com/Srivardhan12/CodeFE.git",
-    },
-    {
-      projectName: "Medium Clone",
-      porjectDiscreption:
-        "It is a clone of the medium blog website where user can write, read and edit there blogs",
-      projectImage: medium,
-      liveDemoURL: "https://srivardhan-medium-clone.vercel.app",
-      githubURL: "http://github.com/Srivardhan12/medium-clone",
     },
   ];
   return (
@@ -30,15 +39,15 @@ export default function Projects() {
       {porjects.map((p) => {
         return (
           <div className="pt-10 flex lg:flex-row flex-col border-b border-slate-200 pb-20">
-            <Link to={p.liveDemoURL} target="_blank">
+            <Link to={p.liveDemoURL} target="_blank" className="w-fit">
               <img
                 src={p.projectImage}
-                className="rounded-md hover:scale-105 transition md:lg:w-8/12 sm:w-full"
+                className="rounded-md hover:scale-105 transition w-10/12 border-4 border-[#8C8C73]"
                 alt="ProjectImg"
               />
             </Link>
-            <div>
-              <h3 className="c-400 text-5xl font-medium pt-6 lg:pt-0">
+            <div className="w-10/12">
+              <h3 className="c-400 text-5xl font-medium pt-6 lg:pt-0 leading-tight">
                 {p.projectName}
               </h3>
               <p className="c-200 text-2xl font-medium py-5">
