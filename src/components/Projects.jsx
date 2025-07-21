@@ -1,7 +1,7 @@
-import React from "react";
 import codefeImg from "../assests/images/codefe.png";
 import medium from "../assests/images/medium.png";
 import gandg from "../assests/images/gang.png";
+import axna from "../assests/images/axna.png";
 import { Link } from "react-router-dom";
 
 export default function Projects() {
@@ -13,6 +13,14 @@ export default function Projects() {
       projectImage: gandg,
       liveDemoURL: "https://gandginfraprojects.com/",
       githubURL: "https://github.com/Srivardhan12/G-G-Infra-Projects.git",
+    },
+    {
+      projectName: "AXNA",
+      porjectDiscreption:
+        "Axna is an AI-powered learning assistant that transforms any PDF into interactive quizzes AI APIs. Built with React",
+      projectImage: axna,
+      liveDemoURL: "https://srivardhan-medium-clone.vercel.app",
+      githubURL: "http://github.com/Srivardhan12/medium-clone",
     },
     {
       projectName: "Blog Website",
