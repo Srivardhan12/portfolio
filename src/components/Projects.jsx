@@ -19,15 +19,15 @@ export default function Projects() {
       porjectDiscreption:
         "Axna is an AI-powered learning assistant that transforms any PDF into interactive quizzes AI APIs. Built with React",
       projectImage: axna,
-      liveDemoURL: "https://srivardhan-medium-clone.vercel.app",
-      githubURL: "http://github.com/Srivardhan12/medium-clone",
+      liveDemoURL: "https://axna.vercel.app",
+      githubURL: "http://github.com/Srivardhan12/axna",
     },
     {
-      projectName: "Blog Website",
+      projectName: "Blogger",
       porjectDiscreption:
         "It is a blog website where user can write, read and edit there blogs",
       projectImage: medium,
-      liveDemoURL: "https://srivardhan-medium-clone.vercel.app",
+      liveDemoURL: "https://srivardhan-bloger.vercel.app",
       githubURL: "http://github.com/Srivardhan12/medium-clone",
     },
     {
@@ -50,7 +50,7 @@ export default function Projects() {
             <Link to={p.liveDemoURL} target="_blank" className="w-fit">
               <img
                 src={p.projectImage}
-                className="rounded-md hover:scale-105 transition w-10/12 border-4 border-[#8C8C73]"
+                className="rounded-md hover:scale-105 transition w-full sm:w-10/12 border-4 border-[#8C8C73]"
                 alt="ProjectImg"
               />
             </Link>
